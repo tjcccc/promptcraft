@@ -1,8 +1,9 @@
 {
-  "name": "promptcraft",
+  "name": "@promptcraft/core",
   "version": "0.1.0",
   "description": "A lightweight TypeScript prompt composition engine.",
   "type": "module",
+  "packageManager": "pnpm@10.33.2",
   "license": "MIT",
   "bin": {
     "promptcraft": "./dist/cli.js"
@@ -21,7 +22,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "prepack": "npm run build",
+    "prepack": "pnpm run build",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },

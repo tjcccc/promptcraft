@@ -6,7 +6,7 @@ All notable changes to PromptCraft will be documented in this file.
 
 ### Added
 
-- Initialized PromptCraft as a TypeScript ESM npm package.
+- Initialized PromptCraft as the `@promptcraft/core` TypeScript ESM npm package.
 - Added the core library API: `parse`, `render`, `validate`, and `combine`.
 - Added parser support for `# Variables`, `# Prompt body`, `key = value` declarations, multi-line bodies, and `{variable_name}` references.
 - Added recursive variable rendering with override variables.
@@ -15,3 +15,4 @@ All notable changes to PromptCraft will be documented in this file.
 - Added JSON output modes for CLI commands.
 - Added Vitest coverage for parser, renderer, combiner, and CLI behavior.
 - Added README documentation for product positioning, installation, syntax, API usage, CLI usage, examples, design constraints, and roadmap.
+- Documented pnpm as the local development package manager.

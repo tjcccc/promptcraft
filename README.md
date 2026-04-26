@@ -18,15 +18,15 @@ PromptCraft is in early v0.1.0 development. The current scope is deliberately sm
 ## Installation
 
 ```bash
-npm install promptcraft
+pnpm add @promptcraft/core
 ```
 
 For local development:
 
 ```bash
-npm install
-npm test
-npm run build
+pnpm install
+pnpm test
+pnpm run build
 ```
 
 ## Basic Syntax
@@ -65,7 +65,7 @@ Not implemented yet: conditions, loops, imports, includes, inheritance, provider
 ## Library Usage
 
 ```ts
-import { combine, parse, render, validate } from "promptcraft";
+import { combine, parse, render, validate } from "@promptcraft/core";
 
 const document = parse(`# Variables
 camera = FUJIFILM GFX100 80mm
