@@ -17,6 +17,8 @@ PromptCraft is in early v0.1.0 development. The current scope is deliberately sm
 
 ## Installation
 
+Published package: <https://www.npmjs.com/package/@promptcraft/core>
+
 ```bash
 pnpm add @promptcraft/core
 ```
